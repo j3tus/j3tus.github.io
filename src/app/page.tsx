@@ -1,6 +1,7 @@
 import React from 'react';
 import { IconType } from 'react-icons';
 import { FaGithub, FaDiscord } from 'react-icons/fa';
+import { Analytics } from '@vercel/analytics/react';
 import Footer from './components/footer';
 
 interface SocialLinkProps {
@@ -32,19 +33,22 @@ const socialLinks: SocialLinkProps[] = [
 
 export default function Home() {
   return (
-    <main className="relative h-screen overflow-hidden">
-      <div className="stars absolute inset-0" />
-      <div className="flex flex-col items-center justify-center h-full">
-        <div className="mb-24 md:mb-0 text-center"> 
-          <h1 className="text-6xl font-bold text-white mb-5">Jetus</h1>
-          <div className="flex justify-center">
-            {socialLinks.map((link, index) => (
-              <SocialLink key={index} {...link} />
-            ))}
+    <>
+      <main className="relative h-screen overflow-hidden">
+        <div className="stars absolute inset-0" />
+        <div className="flex flex-col items-center justify-center h-full">
+          <div className="mb-24 md:mb-0 text-center"> 
+            <h1 className="text-6xl font-bold text-white mb-5">Jetus</h1>
+            <div className="flex justify-center">
+              {socialLinks.map((link, index) => (
+                <SocialLink key={index} {...link} />
+              ))}
+            </div>
           </div>
         </div>
-      </div>
-      <Footer />
-    </main>
+        <Footer />
+      </main>
+      <Analytics />
+    </>
   );
 }
