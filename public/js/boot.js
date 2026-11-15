@@ -1,0 +1,1 @@
+(function(){var h=document.documentElement;if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;var seen=false;try{seen=sessionStorage.getItem("intro")==="1"}catch(e){}if(/[?&]intro/.test(location.search))seen=false;if(seen){h.classList.add("loaded")}else{h.classList.add("pre")}})()

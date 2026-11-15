@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Inter,system-ui,sans-serif">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+<rect width="1600" height="900" fill="#07101f"/>
+<circle cx="1350" cy="120" r="330" fill="#3b82f6" opacity=".10"/><circle cx="180" cy="800" r="300" fill="#22d3ee" opacity=".08"/>
+<g fill="none" stroke="#94a3b8" stroke-opacity=".35" stroke-width="2"><path d="M330 450H470"/><path d="M740 450H740"/><path d="M1130 450H1270"/><path d="M740 450H740"/><path d="M935 200V260" stroke-dasharray="6 8"/><path d="M935 640V700" stroke-dasharray="6 8"/></g>
+<g font-size="26" fill="#e2e8f0" text-anchor="middle">
+<rect x="70" y="370" width="260" height="160" rx="22" fill="#0b1224" stroke="#334155"/><text x="200" y="440" font-weight="600">Phone &amp; browser</text><text x="200" y="478" font-size="20" fill="#94a3b8">anywhere</text>
+<rect x="470" y="370" width="270" height="160" rx="22" fill="#0b1224" stroke="#334155"/><text x="605" y="440" font-weight="600">Tailscale</text><text x="605" y="478" font-size="20" fill="#94a3b8">private net + Funnel</text>
+<rect x="1270" y="370" width="260" height="160" rx="22" fill="#0b1224" stroke="#334155"/><text x="1400" y="440" font-weight="600">Backups</text><text x="1400" y="478" font-size="20" fill="#94a3b8">encrypted, nightly</text>
+<rect x="715" y="140" width="440" height="60" rx="30" fill="url(#g)"/><text x="935" y="180" fill="#04101f" font-weight="700" font-size="24">Ansible: everything as code</text>
+<rect x="740" y="260" width="390" height="380" rx="28" fill="#0b1224" stroke="url(#g)" stroke-width="3"/>
+<text x="935" y="312" font-weight="700" font-size="30">Raspberry Pi 5</text>
+<g font-size="22"><rect x="770" y="340" width="150" height="62" rx="14" fill="#13203b"/><text x="845" y="379">nginx</text>
+<rect x="950" y="340" width="150" height="62" rx="14" fill="#13203b"/><text x="1025" y="379">Docker</text>
+<rect x="770" y="420" width="150" height="62" rx="14" fill="#13203b"/><text x="845" y="459">FastAPI</text>
+<rect x="950" y="420" width="150" height="62" rx="14" fill="#13203b"/><text x="1025" y="459">Nuxt apps</text>
+<rect x="770" y="500" width="150" height="62" rx="14" fill="#13203b"/><text x="845" y="539">systemd</text>
+<rect x="950" y="500" width="150" height="62" rx="14" fill="#13203b"/><text x="1025" y="539">Node games</text></g>
+<text x="935" y="610" font-size="19" fill="#94a3b8">NVMe system · USB storage</text>
+<rect x="740" y="700" width="390" height="70" rx="35" fill="#0b1224" stroke="#334155"/><text x="935" y="745" font-size="22" fill="#94a3b8">hardware watchdog · idle-gated reboots</text>
+</g></svg>

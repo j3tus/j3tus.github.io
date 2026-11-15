@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" data-theme="cream">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jetus | Projects</title>
+<meta name="theme-color" content="#f3ece0">
+<link rel="canonical" href="https://jetus.uk/"><meta property="og:url" content="https://jetus.uk/"><meta property="og:site_name" content="Jetus"><meta property="og:type" content="website"><meta property="og:title" content="Jetus | Projects"><meta property="og:description" content="Software engineer who also does DevOps. Live projects, public repositories and private work, with details and screenshots.">
+<meta property="og:image" content="https://jetus.uk/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.png" type="image/png" sizes="64x64"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="description" content="Software engineer who also does DevOps. Live projects, public repositories and private work, with details and screenshots.">
+<link rel="stylesheet" href="/css/site.css?v=1794770300">
+<script src="/js/boot.js?v=1794770300"></script>
+</head>
+<body>
+<div id="intro" aria-hidden="true"><div class="box"><div class="word" id="iw"></div><small>Software engineer · DevOps</small><div class="bar"><i></i></div></div></div>
+<a class="skip" href="#work">Skip to content</a>
+<div id="bar" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav"><div class="wrap nav-in">
+  <a class="logo" href="#top" aria-label="Jetus, home">Jetus<sup>®</sup></a>
+  <nav aria-label="Main"><a class="lk" href="#work">Projects</a><a class="lk opt" href="#repos">Repositories</a><a class="lk opt" href="#stack">Stack</a><a class="btn btn-d" style="padding:.55rem 1.1rem" href="https://github.com/j3tus" rel="noopener noreferrer" target="_blank">GitHub <i>↗</i></a><button class="tog" id="tog" aria-label="Switch between cream and night theme" title="Cream / night">☀</button></nav>
+</div></header>
+
+<main id="top">
+<section class="wrap hero">
+  <div>
+    <span class="lab">Software engineer · DevOps · Linux</span>
+    <h1><span><b>A software</b></span><span><b>engineer crafting</b></span><span><b>more <em>digital solutions</em></b></span></h1>
+    <p class="lead">Live projects, public repositories and private work, all built by me and tuned to run lean on low-resource hardware. Open any project for the story, the stack and a short launch video.</p>
+    <div class="acts"><a class="btn btn-d" href="#work">View my work <i>→</i></a><a class="btn btn-o" href="#repos">Repositories</a></div>
+    <div class="stats"><div><b>04</b><span>Projects</span></div><div><b>01</b><span>Live now</span></div><div><b>03</b><span>Private</span></div><div><b>4/4</b><span>Run on a Pi 5</span></div></div>
+  </div>
+  <div class="collage" aria-hidden="true">
+    <div class="badge"><svg viewBox="0 0 128 128"><defs><path id="c" d="M64 64m-48 0a48 48 0 1 1 96 0a48 48 0 1 1-96 0"/></defs><text><textPath href="#c">· Lean by design · Dry run first · Built to last </textPath></text></svg><b>✦</b></div>
+    <div class="pic p1"><img src="/assets/voxel-t.webp?v=1794770300" alt="" width="640" height="400" decoding="async" fetchpriority="high"></div>
+    <div class="pic p2"><img src="/assets/speed-t.webp?v=1794770300" alt="" width="640" height="400" decoding="async"></div>
+    <div class="pic p3"><img src="/assets/tv-t.webp?v=1794770300" alt="" width="640" height="400" decoding="async"></div>
+  </div>
+</section>
+
+<section class="logos" aria-label="Tools I build with">
+  <div class="wrap logos-h"><span class="lab">Tools I build with</span><a class="lk" href="#stack">See the full stack →</a></div>
+  <div class="lm"><div class="lt" id="lt1"></div></div>
+  <div class="lm"><div class="lt rev" id="lt2"></div></div>
+</section>
+
+<section id="work" class="wrap sec" aria-labelledby="wh">
+  <div class="sh"><div><span class="lab">01 · Selected work</span><h2 id="wh">Projects <em>&amp; products</em></h2></div>
+    <div class="filters" role="group" aria-label="Filter projects"><button class="f" data-f="all" aria-pressed="true">All</button><button class="f" data-f="public" aria-pressed="false">Live</button><button class="f" data-f="private" aria-pressed="false">Private</button></div></div>
+  <div id="list"></div>
+</section>
+
+<section id="repos" class="wrap sec" aria-labelledby="rh">
+  <div class="sh"><div><span class="lab">02 · On GitHub</span><h2 id="rh">From <em>GitHub</em></h2></div><a class="gbtn" href="https://github.com/j3tus" rel="noopener noreferrer" target="_blank">View profile ↗</a></div>
+  <div class="gh-head"><div class="av" aria-hidden="true">J</div>
+    <div><h3>Jetus<span>j3tus</span></h3><p><span><b>20</b> followers</span><span><b>8</b> public repositories</span><span>Python · TypeScript · HTML</span></p></div>
+    <a class="gbtn" href="https://github.com/j3tus" rel="noopener noreferrer" target="_blank">Follow on GitHub ↗</a></div>
+  <div class="lbar" id="lbar" role="img" aria-label="Language breakdown across repositories"></div><div class="llegend" id="llegend"></div>
+  <div class="gh-tools"><input id="rq" type="search" placeholder="Find a repository…" aria-label="Find a repository"><span id="rf" role="group" aria-label="Filter by language" style="display:flex;gap:.4rem;flex-wrap:wrap"></span><span class="gh-count" id="rcount"></span></div>
+  <div class="repos" id="repolist"></div>
+  <p class="note">Public does not mean open source: repositories shown as “No licence” are visible on GitHub but all rights stay reserved by the author. Repository data comes from GitHub’s public API.</p>
+</section>
+
+<section id="stack" class="wrap sec" aria-labelledby="sh">
+  <div class="sh"><div><span class="lab">03 · Toolbox</span><h2 id="sh">Tech <em>stack</em></h2></div></div>
+  <div id="stackg"></div>
+</section>
+
+<section class="wrap"><div class="cta rv">
+  <span class="lab">Let's talk</span>
+  <h2>Want to see something <em>in action?</em></h2>
+  <p>My projects run day to day on a Raspberry Pi 5, so they are built to stay light on CPU and memory, deployed with dry runs and kept in code.</p>
+  <a class="btn btn-a" href="https://github.com/j3tus" rel="noopener noreferrer" target="_blank">Say hello on GitHub <i>↗</i></a>
+  <div class="ring" aria-hidden="true"></div>
+</div></section>
+</main>
+
+<footer class="ft"><div class="wrap">
+  <div class="ft-g">
+    <div><a class="brand" href="#top" aria-label="Jetus, back to top">Jetus<sup>®</sup></a><p class="blurb">A software engineer crafting more digital solutions, tuned to run well on small, low-resource hardware.</p><span class="status"><i></i>Tuned for low-resource hardware</span></div>
+    <div><p class="fh">Explore</p><ul><li><a href="#work">Projects</a></li><li><a href="#repos">Repositories</a></li><li><a href="#stack">Tech stack</a></li></ul></div>
+    <div><p class="fh">Projects</p><ul id="ftp"></ul></div>
+    <div><p class="fh">Elsewhere</p><ul><li><a href="https://github.com/j3tus" rel="noopener noreferrer" target="_blank">GitHub ↗</a></li></ul></div>
+  </div>
+  <details class="legald" open><summary>Legal &amp; credits</summary><p class="legal">GitHub® and the Octicons marks are trademarks or works of GitHub, Inc. This site is an independent portfolio and is not affiliated with, sponsored or endorsed by GitHub. Repository icons are GitHub Octicons (MIT licence, © GitHub, Inc.); language colours follow GitHub Linguist (MIT). Other product names, logos and brands, including those visible in screenshots, belong to their respective owners and appear for identification only, with no endorsement implied. This page sets no cookies and runs no analytics.</p></details>
+  <div class="ft-b"><span>© 2026 Jetus · designed and built by me</span><a class="top" href="#top">Back to top <i>↑</i></a></div>
+</div></footer>
+
+<div class="veil" id="veil"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Project details" tabindex="-1"></aside>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Launch video"><div class="modal-in" id="modalin"></div></div>
+
+<script src="/js/app.js?v=1794770300" defer></script>
+</body>
+</html>
